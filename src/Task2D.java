@@ -52,7 +52,7 @@ public class Task2D {
             int index = random.nextInt(ELEMENTS); // random index
             sum += list.get(index);
         }
-        int test = ELEMENTS;
+
         long end = System.currentTimeMillis();
         System.out.println("Checksum: " + sum);
         return end - start;
